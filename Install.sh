@@ -1,11 +1,9 @@
-#git clone https://aur.archlinux.org/yay-bin.git
-#cd yay-bin
-#makepkg -si
-#yay -S fish waybar hyprpaper hyprshot hyprpicker nwg-look catppuccin-gtk-theme-mocha bibata-cursor-theme hyprpolkitagent swaync nautilus spotify-launcher spicetify-cli neovim vim vi rofi vivaldi discord vencordinstaller starship rofi fastfetch hypridle
-#chsh -s /usr/bin/fish
-#sudo chsh -s /usr/bin/fish
-# git clone https://github.com/tax_malalas0001/HyprDots.git
-# cd Hyprdots
+git clone https://aur.archlinux.org/yay-bin.git
+cd yay-bin
+makepkg -si
+yay -S fish waybar hyprpaper hyprshot hyprpicker nwg-look catppuccin-gtk-theme-mocha bibata-cursor-theme hyprpolkitagent swaync nautilus spotify-launcher spicetify-cli neovim vim vi rofi discord vencordinstaller starship rofi fastfetch hypridle
+chsh -s /usr/bin/fish
+sudo chsh -s /usr/bin/fish
 sudo mv ~/HyprDots/hypreco/.config/hypr/mocha.conf ~/.config/hypr/mocha.conf
 sudo mv ~/HyprDots/hypreco/.config/hypr/hyprland.conf ~/.config/hypr/hyprland.conf
 sudo mv ~/HyprDots/hypreco/.config/hypr/hyprpaper.conf ~/.config/hypr/hyprpaper.conf
